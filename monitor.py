@@ -244,13 +244,21 @@ def send(text):
     if not cid:
         print("no chat id yet — message the bot on Telegram to connect")
         return
-    r = requests.post(f"{TG_API}/sendMessage",
-                      json={"chat_id": cid, "text": text}, timeout=20)
-    try:
-        if not r.json().get("ok"):
-            print(f"send failed: {r.text[:200]}")
-    except Exception:
-        pass
+    for attempt in range(2):
+        r = requests.post(f"{TG_API}/sendMessage",
+                          json={"chat_id": cid, "text": text}, timeout=20)
+        try:
+            body = r.json()
+        except Exception:
+            body = {}
+        if body.get("ok"):
+            break
+        if body.get("error_code") == 429:  # rate limited — wait and retry
+            time.sleep(body.get("parameters", {}).get("retry_after", 3) + 1)
+            continue
+        print(f"send failed: {r.text[:200]}")
+        break
+    time.sleep(0.5)  # pace bursts of per-coin alerts
 
 
 def short(symbol):
@@ -389,6 +397,11 @@ def main():
     global _STATE
     _STATE = state
 
+    # answer any commands you sent since the last run right away,
+    # using the previous scan's ratings — no need to wait for the
+    # new scan or trigger anything manually
+    read_commands(state, state.get("ratings", {}))
+
     send(f"🔄 Scan started — checking {len(COINS)} coins across 8 "
          f"timeframes (~10-15 min).")
 
@@ -429,19 +442,20 @@ def main():
             elif n_against < EXIT_MAJORITY:
                 state["exit_alerted"][coin] = False  # re-arm
 
-    # every-run summary: repeats coins while they stay fully green/red
-    parts = []
-    if greens:
-        parts.append("🟢 ALL GREEN: " + ", ".join(greens))
-    if reds:
-        parts.append("🔴 ALL RED: " + ", ".join(reds))
-    if parts:
-        send("📊 Scan done.\n" + "\n".join(parts) +
-             "\n\nSend /start to pick and track any of these.")
+    # per-coin alerts, repeated every run while the coin stays fully
+    # green/red — the message style you asked to keep
+    for name in greens:
+        send(f"🟢 ALL BUY: {name}\nEvery timeframe (1m–monthly) shows buy.")
+    for name in reds:
+        send(f"🔴 ALL SELL: {name}\nEvery timeframe (1m–monthly) shows sell.")
+    if greens or reds:
+        send(f"📊 Scan done — {len(greens)} all-green, {len(reds)} all-red. "
+             f"Send /start to pick and track any of them.")
     else:
         send("📊 Scan done — no coins are fully green or fully red "
              "right now.")
 
+    state["ratings"] = ratings
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
