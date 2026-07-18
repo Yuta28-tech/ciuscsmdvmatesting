@@ -1,5 +1,5 @@
 {
-  "offset": 0,
+  "offset": 734140220,
   "all_signal": {
     "BTCUSDT": null,
     "ETHUSDT": null,
@@ -24,21 +24,21 @@
     "ARBUSDT": null,
     "XMRUSDT": null,
     "TRUMPUSDT": null,
-    "TAOUSDT": "sell",
-    "XPLUSDT": null,
+    "TAOUSDT": null,
+    "XPLUSDT": "sell",
     "ENAUSDT": null,
     "DOGEUSDT": null,
     "LTCUSDT": null,
-    "GRAMUSDT": null,
+    "GRAMUSDT": "sell",
     "ETHFIUSDT": null,
     "CRVUSDT": null,
     "PAXGUSDT": null,
     "BCHUSDT": null,
-    "AEROUSDT": "sell",
+    "AEROUSDT": null,
     "INJUSDT": null,
     "VIRTUALUSDT": null,
     "DOTUSDT": null,
-    "ZROUSDT": null,
+    "ZROUSDT": "sell",
     "EIGENUSDT": null,
     "LDOUSDT": null,
     "ENSUSDT": null,
@@ -57,26 +57,26 @@
     "MEGAUSDT": null,
     "PENDLEUSDT": null,
     "ARUSDT": null,
-    "FETUSDT": null,
+    "FETUSDT": "sell",
     "WIFUSDT": null,
     "OPUSDT": null,
     "STRKUSDT": null,
     "POLUSDT": null,
     "CHIPUSDT": null,
     "HBARUSDT": null,
-    "SHIBUSDT": null,
+    "SHIBUSDT": "sell",
     "BLURUSDT": null,
     "SEIUSDT": null,
-    "ASTERUSDT": null,
+    "ASTERUSDT": "sell",
     "ETCUSDT": null,
     "BERAUSDT": null,
     "SYRUPUSDT": null,
     "RUNEUSDT": null,
     "FILUSDT": "sell",
-    "RESOLVUSDT": "sell",
+    "RESOLVUSDT": null,
     "USUALUSDT": null,
     "LINEAUSDT": null,
-    "NILUSDT": null,
+    "NILUSDT": "sell",
     "AVNTUSDT": null,
     "SKYUSDT": null,
     "MINAUSDT": null,
@@ -95,22 +95,22 @@
     "DYDXUSDT": null,
     "PNUTUSDT": null,
     "IOUSDT": null,
-    "ZKUSDT": null,
+    "ZKUSDT": "sell",
     "CELOUSDT": null,
-    "ALGOUSDT": null,
+    "ALGOUSDT": "sell",
     "HEMIUSDT": null,
     "ALTUSDT": null,
     "MANTAUSDT": null,
-    "BABYUSDT": null,
+    "BABYUSDT": "sell",
     "CFXUSDT": null,
-    "0GUSDT": null,
+    "0GUSDT": "sell",
     "AXSUSDT": null,
     "CAKEUSDT": null,
     "REZUSDT": null,
     "MOVEUSDT": "sell",
     "RENDERUSDT": null,
     "GASUSDT": null,
-    "IMXUSDT": "sell",
+    "IMXUSDT": null,
     "BIGTIMEUSDT": null,
     "COMPUSDT": null,
     "POLYXUSDT": null,
@@ -125,32 +125,135 @@
     "ANIMEUSDT": "sell",
     "DYMUSDT": null,
     "YGGUSDT": null,
-    "INITUSDT": null,
+    "INITUSDT": "sell",
     "AIXBTUSDT": null,
     "LUNCUSDT": null,
     "2ZUSDT": null,
     "BIOUSDT": null,
     "ZENUSDT": null,
-    "WCTUSDT": "sell",
-    "PEOPLEUSDT": null,
+    "WCTUSDT": null,
+    "PEOPLEUSDT": "sell",
     "SANDUSDT": null,
-    "SUPERUSDT": null,
-    "FLOKIUSDT": "sell",
-    "GMTUSDT": "sell",
-    "FOGOUSDT": null,
-    "UMAUSDT": "sell",
+    "SUPERUSDT": "sell",
+    "FLOKIUSDT": null,
+    "GMTUSDT": null,
+    "FOGOUSDT": "sell",
+    "UMAUSDT": null,
     "NEOUSDT": null,
-    "SAGAUSDT": null,
+    "SAGAUSDT": "sell",
     "NXPCUSDT": null,
-    "XAIUSDT": null,
+    "XAIUSDT": "sell",
     "SOPHUSDT": null,
     "MEMEUSDT": null,
     "RSRUSDT": null,
-    "TNSRUSDT": null,
+    "TNSRUSDT": "sell",
     "NOTUSDT": null,
     "BOMEUSDT": null
   },
   "positions": {},
   "exit_alerted": {},
-  "missing_notified": true
+  "missing_notified": true,
+  "chat_id": "8444676175",
+  "menu": [
+    [
+      "ZECUSDT",
+      "buy"
+    ],
+    [
+      "BONKUSDT",
+      "sell"
+    ],
+    [
+      "XPLUSDT",
+      "sell"
+    ],
+    [
+      "GRAMUSDT",
+      "sell"
+    ],
+    [
+      "ZROUSDT",
+      "sell"
+    ],
+    [
+      "WLFIUSDT",
+      "sell"
+    ],
+    [
+      "FETUSDT",
+      "sell"
+    ],
+    [
+      "SHIBUSDT",
+      "sell"
+    ],
+    [
+      "ASTERUSDT",
+      "sell"
+    ],
+    [
+      "FILUSDT",
+      "sell"
+    ],
+    [
+      "NILUSDT",
+      "sell"
+    ],
+    [
+      "GALAUSDT",
+      "sell"
+    ],
+    [
+      "ZKUSDT",
+      "sell"
+    ],
+    [
+      "ALGOUSDT",
+      "sell"
+    ],
+    [
+      "BABYUSDT",
+      "sell"
+    ],
+    [
+      "0GUSDT",
+      "sell"
+    ],
+    [
+      "MOVEUSDT",
+      "sell"
+    ],
+    [
+      "ANIMEUSDT",
+      "sell"
+    ],
+    [
+      "INITUSDT",
+      "sell"
+    ],
+    [
+      "PEOPLEUSDT",
+      "sell"
+    ],
+    [
+      "SUPERUSDT",
+      "sell"
+    ],
+    [
+      "FOGOUSDT",
+      "sell"
+    ],
+    [
+      "SAGAUSDT",
+      "sell"
+    ],
+    [
+      "XAIUSDT",
+      "sell"
+    ],
+    [
+      "TNSRUSDT",
+      "sell"
+    ]
+  ]
 }
