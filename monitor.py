@@ -62,8 +62,17 @@ KLINES_URL = "https://data-api.binance.vision/api/v3/klines"
 STATE_FILE = "state.json"
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID = str(os.environ["TELEGRAM_CHAT_ID"])
+ENV_CHAT_ID = str(os.environ.get("TELEGRAM_CHAT_ID", "")).strip()
 TG_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
+
+# set in main() once state is loaded; the bot adopts the first private
+# chat that messages it and stores it in state, so a wrong or missing
+# TELEGRAM_CHAT_ID secret can't break delivery
+_STATE = {}
+
+
+def owner_chat_id():
+    return str(_STATE.get("chat_id") or ENV_CHAT_ID)
 
 BUYISH = {"Buy", "Strong Buy"}
 SELLISH = {"Sell", "Strong Sell"}
@@ -230,8 +239,17 @@ def rating(df):
 # ----------------- telegram -----------------
 
 def send(text):
-    requests.post(f"{TG_API}/sendMessage",
-                  json={"chat_id": CHAT_ID, "text": text}, timeout=20)
+    cid = owner_chat_id()
+    if not cid:
+        print("no chat id yet — message the bot on Telegram to connect")
+        return
+    r = requests.post(f"{TG_API}/sendMessage",
+                      json={"chat_id": cid, "text": text}, timeout=20)
+    try:
+        if not r.json().get("ok"):
+            print(f"send failed: {r.text[:200]}")
+    except Exception:
+        pass
 
 
 def short(symbol):
@@ -253,7 +271,14 @@ def read_commands(state, ratings):
     for upd in r.json().get("result", []):
         state["offset"] = upd["update_id"]
         msg = upd.get("message") or {}
-        if str(msg.get("chat", {}).get("id")) != CHAT_ID:
+        chat = msg.get("chat", {})
+        # adopt the first private chat that messages the bot as the owner
+        if not state.get("chat_id") and chat.get("type") == "private" \
+                and chat.get("id"):
+            state["chat_id"] = str(chat["id"])
+            send("Connected! This chat will now receive all alerts. "
+                 "Send /start to see current signals.")
+        if str(chat.get("id")) != owner_chat_id():
             continue
         parts = (msg.get("text") or "").strip().lower().split()
         if not parts:
@@ -350,6 +375,8 @@ def main():
     state.setdefault("all_signal", {})
     state.setdefault("positions", {})
     state.setdefault("exit_alerted", {})
+    global _STATE
+    _STATE = state
 
     coins = valid_symbols(state)
     ratings = {}
