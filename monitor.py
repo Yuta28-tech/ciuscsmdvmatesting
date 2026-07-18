@@ -15,6 +15,7 @@ Commands (send to your bot in Telegram, picked up on the next run):
 
 import json
 import os
+import sys
 import time
 import requests
 import pandas as pd
@@ -366,6 +367,16 @@ def valid_symbols(state):
 
 
 def main():
+    # verify the token before doing anything — fail the run loudly if bad
+    me = requests.get(f"{TG_API}/getMe", timeout=20).json()
+    if not me.get("ok"):
+        print("ERROR: TELEGRAM_BOT_TOKEN is invalid — Telegram says:", me)
+        print("Fix: repo Settings > Secrets > TELEGRAM_BOT_TOKEN, paste the "
+              "token fresh from BotFather.")
+        sys.exit(1)
+    bot_name = me["result"].get("username", "?")
+    print(f"Token OK — bot username: @{bot_name}")
+
     try:
         with open(STATE_FILE) as f:
             state = json.load(f)
@@ -377,6 +388,9 @@ def main():
     state.setdefault("exit_alerted", {})
     global _STATE
     _STATE = state
+
+    send(f"🔄 Scan started — checking {len(COINS)} coins across 8 "
+         f"timeframes (~10-15 min).")
 
     coins = valid_symbols(state)
     ratings = {}
@@ -393,18 +407,13 @@ def main():
     # commands first, so /long registers before exit checks
     read_commands(state, ratings)
 
+    greens, reds = [], []
     for coin, tfs in ratings.items():
         labels = list(tfs.values())
-        all_buy = all(l in BUYISH for l in labels)
-        all_sell = all(l in SELLISH for l in labels)
-        current = "buy" if all_buy else "sell" if all_sell else None
-        prev = state["all_signal"].get(coin)
-
-        if current and current != prev:
-            arrow = "🟢 ALL BUY" if current == "buy" else "🔴 ALL SELL"
-            send(f"{arrow}: {short(coin)}\nEvery timeframe (1m–monthly) now "
-                 f"shows {'buy' if current == 'buy' else 'sell'}.")
-        state["all_signal"][coin] = current
+        if labels and all(l in BUYISH for l in labels):
+            greens.append(short(coin))
+        elif labels and all(l in SELLISH for l in labels):
+            reds.append(short(coin))
 
         # position exit alerts
         pos = state["positions"].get(coin)
@@ -419,6 +428,19 @@ def main():
                 state["exit_alerted"][coin] = True
             elif n_against < EXIT_MAJORITY:
                 state["exit_alerted"][coin] = False  # re-arm
+
+    # every-run summary: repeats coins while they stay fully green/red
+    parts = []
+    if greens:
+        parts.append("🟢 ALL GREEN: " + ", ".join(greens))
+    if reds:
+        parts.append("🔴 ALL RED: " + ", ".join(reds))
+    if parts:
+        send("📊 Scan done.\n" + "\n".join(parts) +
+             "\n\nSend /start to pick and track any of these.")
+    else:
+        send("📊 Scan done — no coins are fully green or fully red "
+             "right now.")
 
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
