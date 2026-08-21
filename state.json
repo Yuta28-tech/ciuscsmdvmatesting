@@ -156,7 +156,7 @@
     }
   },
   "exit_alerted": {
-    "AVAXUSDT": false
+    "AVAXUSDT": true
   },
   "missing_notified": true,
   "chat_id": "8444676175",
@@ -320,19 +320,19 @@
   ],
   "ratings": {
     "BTCUSDT": {
-      "1m": "Sell",
-      "5m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Buy",
-      "1M": "Neutral"
+      "1M": "Buy"
     },
     "ETHUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -340,31 +340,31 @@
       "1M": "Neutral"
     },
     "SOLUSDT": {
-      "1m": "Sell",
-      "5m": "Buy",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
-      "1M": "Sell"
+      "1M": "Neutral"
     },
     "ZECUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Buy",
+      "1m": "Sell",
+      "5m": "Neutral",
+      "15m": "Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Strong Buy",
       "1M": "Strong Buy"
     },
     "XRPUSDT": {
-      "1m": "Sell",
+      "1m": "Buy",
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1h": "Buy",
       "1d": "Strong Buy",
       "1w": "Buy",
       "1M": "Neutral"
@@ -380,48 +380,48 @@
       "1M": "Neutral"
     },
     "PUMPUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Neutral",
+      "1m": "Sell",
+      "5m": "Sell",
+      "15m": "Strong Buy",
       "30m": "Buy",
-      "1h": "Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Strong Buy",
       "1M": "Neutral"
     },
     "ONDOUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1h": "Buy",
       "1d": "Strong Buy",
       "1w": "Buy",
       "1M": "Neutral"
     },
     "KAITOUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Neutral",
+      "1m": "Neutral",
+      "5m": "Neutral",
+      "15m": "Sell",
+      "30m": "Sell",
+      "1h": "Strong Sell",
       "1d": "Sell",
       "1w": "Strong Sell",
       "1M": "Sell"
     },
     "NEARUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Buy",
-      "30m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "AAVEUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
+      "1m": "Strong Buy",
+      "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -430,28 +430,28 @@
       "1M": "Sell"
     },
     "UNIUSDT": {
-      "1m": "Neutral",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
-      "1w": "Neutral",
+      "1w": "Buy",
       "1M": "Sell"
     },
     "BONKUSDT": {
-      "1m": "Neutral",
+      "1m": "Sell",
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Neutral",
+      "1d": "Buy",
       "1w": "Sell",
       "1M": "Sell"
     },
     "SUIUSDT": {
       "1m": "Neutral",
-      "5m": "Strong Buy",
+      "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -460,7 +460,7 @@
       "1M": "Sell"
     },
     "ADAUSDT": {
-      "1m": "Neutral",
+      "1m": "Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -470,8 +470,8 @@
       "1M": "Sell"
     },
     "PEPEUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -480,9 +480,9 @@
       "1M": "Neutral"
     },
     "LINKUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -493,16 +493,16 @@
       "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "30m": "Buy",
+      "1h": "Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "BNBUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -510,21 +510,21 @@
       "1M": "Neutral"
     },
     "AVAXUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Neutral",
-      "15m": "Neutral",
-      "30m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "ARBUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
@@ -540,7 +540,7 @@
       "1M": "Strong Sell"
     },
     "TRUMPUSDT": {
-      "1m": "Sell",
+      "1m": "Buy",
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -550,18 +550,18 @@
       "1M": "Sell"
     },
     "TAOUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Strong Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "XPLUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -571,7 +571,7 @@
     },
     "ENAUSDT": {
       "1m": "Neutral",
-      "5m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -580,9 +580,9 @@
       "1M": "Neutral"
     },
     "DOGEUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -590,9 +590,9 @@
       "1M": "Sell"
     },
     "LTCUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Strong Buy",
+      "1m": "Sell",
+      "5m": "Neutral",
+      "15m": "Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -600,27 +600,17 @@
       "1M": "Sell"
     },
     "GRAMUSDT": {
-      "1m": "Buy",
+      "1m": "Strong Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
-      "1w": "Strong Sell",
+      "1d": "Strong Buy",
+      "1w": "Sell",
       "1M": "Strong Sell"
     },
     "ETHFIUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Strong Sell",
-      "15m": "Sell",
-      "30m": "Sell",
-      "1h": "Neutral",
-      "1d": "Strong Buy",
-      "1w": "Buy",
-      "1M": "Neutral"
-    },
-    "CRVUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -629,18 +619,28 @@
       "1w": "Buy",
       "1M": "Neutral"
     },
-    "PAXGUSDT": {
-      "1m": "Sell",
+    "CRVUSDT": {
+      "1m": "Neutral",
       "5m": "Neutral",
-      "15m": "Buy",
+      "15m": "Neutral",
       "30m": "Buy",
       "1h": "Buy",
       "1d": "Strong Buy",
+      "1w": "Buy",
+      "1M": "Neutral"
+    },
+    "PAXGUSDT": {
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
+      "1d": "Strong Buy",
       "1w": "Strong Buy",
-      "1M": "Buy"
+      "1M": "Strong Buy"
     },
     "BCHUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -650,9 +650,9 @@
       "1M": "Strong Sell"
     },
     "AEROUSDT": {
-      "1m": "Neutral",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -665,12 +665,12 @@
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "VIRTUALUSDT": {
-      "1m": "Neutral",
+      "1m": "Strong Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -680,18 +680,18 @@
       "1M": "Neutral"
     },
     "DOTUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Buy",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Strong Sell"
     },
     "ZROUSDT": {
       "1m": "Strong Buy",
-      "5m": "Buy",
+      "5m": "Neutral",
       "15m": "Neutral",
       "30m": "Neutral",
       "1h": "Neutral",
@@ -700,27 +700,27 @@
       "1M": "Strong Sell"
     },
     "EIGENUSDT": {
-      "1m": "Buy",
+      "1m": "Strong Buy",
       "5m": "Strong Buy",
-      "15m": "Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "LDOUSDT": {
-      "1m": "Neutral",
-      "5m": "Neutral",
-      "15m": "Neutral",
-      "30m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "ENSUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -747,21 +747,21 @@
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Buy",
-      "1M": "Sell"
+      "1M": "Neutral"
     },
     "JTOUSDT": {
       "1m": "Strong Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Buy",
+      "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "XLMUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -770,11 +770,11 @@
       "1M": "Sell"
     },
     "WLFIUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Buy",
-      "1h": "Buy",
+      "1m": "Neutral",
+      "5m": "Sell",
+      "15m": "Strong Sell",
+      "30m": "Strong Sell",
+      "1h": "Sell",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Strong Sell"
@@ -792,11 +792,11 @@
     "TIAUSDT": {
       "1m": "Strong Buy",
       "5m": "Strong Buy",
-      "15m": "Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
-      "1w": "Sell",
+      "1w": "Neutral",
       "1M": "Sell"
     },
     "METUSDT": {
@@ -816,13 +816,13 @@
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
-      "1w": "Buy",
+      "1w": "Neutral",
       "1M": "Neutral"
     },
     "ICPUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
+      "1m": "Sell",
+      "5m": "Neutral",
+      "15m": "Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -830,39 +830,39 @@
       "1M": "Neutral"
     },
     "MORPHOUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Strong Sell",
+      "1m": "Sell",
+      "5m": "Sell",
       "15m": "Sell",
-      "30m": "Neutral",
+      "30m": "Sell",
       "1h": "Neutral",
       "1d": "Strong Buy",
       "1w": "Strong Buy",
       "1M": "Neutral"
     },
     "TRXUSDT": {
-      "1m": "Sell",
-      "5m": "Strong Sell",
-      "15m": "Sell",
-      "30m": "Sell",
-      "1h": "Neutral",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Buy",
+      "1h": "Buy",
       "1d": "Strong Buy",
       "1w": "Strong Buy",
       "1M": "Strong Buy"
     },
     "MEGAUSDT": {
-      "1m": "Neutral",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1m": "Strong Sell",
+      "5m": "Neutral",
+      "15m": "Buy",
+      "30m": "Buy",
+      "1h": "Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Strong Sell"
     },
     "PENDLEUSDT": {
-      "1m": "Neutral",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -870,21 +870,21 @@
       "1M": "Neutral"
     },
     "ARUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "FETUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "15m": "Buy",
+      "30m": "Buy",
+      "1h": "Buy",
       "1d": "Buy",
       "1w": "Sell",
       "1M": "Strong Sell"
@@ -902,15 +902,15 @@
     "OPUSDT": {
       "1m": "Strong Buy",
       "5m": "Strong Buy",
-      "15m": "Buy",
-      "30m": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "STRKUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -922,35 +922,35 @@
     "POLUSDT": {
       "1m": "Strong Buy",
       "5m": "Strong Buy",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "CHIPUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1m": "Strong Sell",
+      "5m": "Sell",
+      "15m": "Neutral",
+      "30m": "Neutral",
+      "1h": "Buy",
       "1d": "Buy",
-      "1w": "Neutral",
+      "1w": "Buy",
       "1M": "Strong Sell"
     },
     "HBARUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "1m": "Buy",
+      "5m": "Neutral",
+      "15m": "Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "SHIBUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -970,7 +970,7 @@
       "1M": "Sell"
     },
     "SEIUSDT": {
-      "1m": "Buy",
+      "1m": "Strong Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -980,17 +980,17 @@
       "1M": "Sell"
     },
     "ASTERUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Strong Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Neutral",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Strong Buy",
       "1M": "Sell"
     },
     "ETCUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1000,28 +1000,28 @@
       "1M": "Sell"
     },
     "BERAUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1m": "Strong Sell",
+      "5m": "Strong Sell",
+      "15m": "Neutral",
+      "30m": "Neutral",
+      "1h": "Neutral",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "SYRUPUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1h": "Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "RUNEUSDT": {
       "1m": "Neutral",
-      "5m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1030,7 +1030,7 @@
       "1M": "Neutral"
     },
     "FILUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1040,22 +1040,22 @@
       "1M": "Sell"
     },
     "RESOLVUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Neutral",
+      "15m": "Neutral",
+      "30m": "Neutral",
+      "1h": "Neutral",
       "1d": "Neutral",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "USUALUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Buy",
-      "1d": "Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
@@ -1070,47 +1070,47 @@
       "1M": "Strong Sell"
     },
     "NILUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Buy",
-      "1d": "Buy",
+      "1m": "Strong Sell",
+      "5m": "Neutral",
+      "15m": "Neutral",
+      "30m": "Buy",
+      "1h": "Strong Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "AVNTUSDT": {
       "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
-      "1d": "Buy",
+      "5m": "Buy",
+      "15m": "Neutral",
+      "30m": "Neutral",
+      "1h": "Neutral",
+      "1d": "Neutral",
       "1w": "Neutral",
       "1M": "Strong Sell"
     },
     "SKYUSDT": {
-      "1m": "Neutral",
-      "5m": "Sell",
-      "15m": "Sell",
-      "30m": "Neutral",
-      "1h": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
-      "1w": "Buy",
-      "1M": "Strong Sell"
+      "1w": "Strong Buy",
+      "1M": "Neutral"
     },
     "MINAUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "SNXUSDT": {
-      "1m": "Neutral",
+      "1m": "Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1120,11 +1120,11 @@
       "1M": "Neutral"
     },
     "SUSHIUSDT": {
-      "1m": "Buy",
-      "5m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
@@ -1140,7 +1140,7 @@
       "1M": "Neutral"
     },
     "ORDIUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1150,18 +1150,18 @@
       "1M": "Neutral"
     },
     "HMSTRUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "DASHUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
+      "1m": "Sell",
+      "5m": "Neutral",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1170,18 +1170,18 @@
       "1M": "Neutral"
     },
     "TRBUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
-      "30m": "Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
-      "1M": "Strong Sell"
+      "1M": "Sell"
     },
     "APEUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1190,8 +1190,8 @@
       "1M": "Sell"
     },
     "GALAUSDT": {
-      "1m": "Neutral",
-      "5m": "Strong Buy",
+      "1m": "Sell",
+      "5m": "Neutral",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1200,7 +1200,7 @@
       "1M": "Sell"
     },
     "WUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1210,7 +1210,7 @@
       "1M": "Neutral"
     },
     "BANANAUSDT": {
-      "1m": "Buy",
+      "1m": "Strong Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1220,8 +1220,8 @@
       "1M": "Neutral"
     },
     "ATOMUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1235,14 +1235,14 @@
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Neutral",
+      "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "PNUTUSDT": {
-      "1m": "Neutral",
+      "1m": "Strong Buy",
       "5m": "Strong Buy",
-      "15m": "Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -1250,8 +1250,8 @@
       "1M": "Neutral"
     },
     "IOUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1262,18 +1262,18 @@
     "ZKUSDT": {
       "1m": "Buy",
       "5m": "Strong Buy",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Buy",
-      "1d": "Neutral",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
+      "1d": "Buy",
       "1w": "Sell",
       "1M": "Sell"
     },
     "CELOUSDT": {
-      "1m": "Sell",
+      "1m": "Neutral",
       "5m": "Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "15m": "Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
@@ -1290,10 +1290,10 @@
       "1M": "Sell"
     },
     "HEMIUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "1m": "Strong Sell",
+      "5m": "Neutral",
+      "15m": "Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Strong Buy",
@@ -1310,16 +1310,26 @@
       "1M": "Neutral"
     },
     "MANTAUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Strong Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
+      "1m": "Sell",
+      "5m": "Buy",
+      "15m": "Buy",
+      "30m": "Buy",
       "1h": "Neutral",
       "1d": "Neutral",
       "1w": "Sell",
       "1M": "Sell"
     },
     "BABYUSDT": {
+      "1m": "Neutral",
+      "5m": "Sell",
+      "15m": "Neutral",
+      "30m": "Buy",
+      "1h": "Buy",
+      "1d": "Buy",
+      "1w": "Neutral",
+      "1M": "Sell"
+    },
+    "CFXUSDT": {
       "1m": "Strong Buy",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
@@ -1329,19 +1339,9 @@
       "1w": "Neutral",
       "1M": "Sell"
     },
-    "CFXUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
-      "1d": "Buy",
-      "1w": "Neutral",
-      "1M": "Sell"
-    },
     "0GUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1350,8 +1350,8 @@
       "1M": "Strong Sell"
     },
     "AXSUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1360,9 +1360,9 @@
       "1M": "Sell"
     },
     "CAKEUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -1371,7 +1371,7 @@
     },
     "REZUSDT": {
       "1m": "Neutral",
-      "5m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1380,18 +1380,18 @@
       "1M": "Neutral"
     },
     "MOVEUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "30m": "Buy",
+      "1h": "Buy",
       "1d": "Neutral",
       "1w": "Sell",
       "1M": "Sell"
     },
     "RENDERUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1400,18 +1400,18 @@
       "1M": "Strong Sell"
     },
     "GASUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Strong Buy",
+      "1m": "Strong Sell",
+      "5m": "Strong Sell",
+      "15m": "Neutral",
+      "30m": "Neutral",
+      "1h": "Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
-      "1M": "Sell"
+      "1M": "Neutral"
     },
     "IMXUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1421,9 +1421,9 @@
     },
     "BIGTIMEUSDT": {
       "1m": "Neutral",
-      "5m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
-      "30m": "Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Sell",
@@ -1434,44 +1434,44 @@
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1h": "Buy",
       "1d": "Strong Buy",
-      "1w": "Buy",
+      "1w": "Neutral",
       "1M": "Neutral"
     },
     "POLYXUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Sell",
       "1M": "Sell"
     },
     "HYPERUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Neutral",
-      "15m": "Neutral",
-      "30m": "Buy",
-      "1h": "Neutral",
+      "1m": "Strong Buy",
+      "5m": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "TURBOUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Buy",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
-      "1M": "Sell"
+      "1M": "Neutral"
     },
     "LAYERUSDT": {
       "1m": "Neutral",
-      "5m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1480,108 +1480,108 @@
       "1M": "Sell"
     },
     "PROVEUSDT": {
-      "1m": "Sell",
+      "1m": "Neutral",
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "1h": "Buy",
       "1d": "Buy",
       "1w": "Sell",
       "1M": "Strong Sell"
     },
     "MEUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Buy",
+      "1d": "Buy",
+      "1w": "Neutral",
+      "1M": "Sell"
+    },
+    "STXUSDT": {
+      "1m": "Strong Sell",
+      "5m": "Neutral",
+      "15m": "Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
-    "STXUSDT": {
-      "1m": "Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
-      "1d": "Buy",
-      "1w": "Sell",
-      "1M": "Sell"
-    },
     "SUSDT": {
       "1m": "Sell",
-      "5m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
-      "30m": "Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "IOTAUSDT": {
-      "1m": "Sell",
-      "5m": "Neutral",
-      "15m": "Neutral",
-      "30m": "Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "ANIMEUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
-      "30m": "Buy",
+      "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "DYMUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Neutral",
-      "1d": "Neutral",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
+      "1d": "Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "YGGUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "INITUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Neutral",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "AIXBTUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Neutral",
-      "1h": "Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "LUNCUSDT": {
-      "1m": "Sell",
-      "5m": "Buy",
+      "1m": "Neutral",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1600,49 +1600,49 @@
       "1M": "Strong Sell"
     },
     "BIOUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Strong Sell",
-      "15m": "Sell",
-      "30m": "Neutral",
-      "1h": "Neutral",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
+      "15m": "Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Buy",
       "1M": "Neutral"
     },
     "ZENUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "WCTUSDT": {
-      "1m": "Strong Sell",
+      "1m": "Neutral",
       "5m": "Neutral",
-      "15m": "Buy",
-      "30m": "Neutral",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
       "1h": "Buy",
       "1d": "Neutral",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "PEOPLEUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Buy",
-      "30m": "Buy",
-      "1h": "Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
+      "15m": "Strong Buy",
+      "30m": "Strong Buy",
+      "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Buy",
       "1M": "Neutral"
     },
     "SANDUSDT": {
       "1m": "Neutral",
-      "5m": "Neutral",
-      "15m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
@@ -1650,8 +1650,8 @@
       "1M": "Sell"
     },
     "SUPERUSDT": {
-      "1m": "Buy",
-      "5m": "Buy",
+      "1m": "Strong Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1660,28 +1660,28 @@
       "1M": "Sell"
     },
     "FLOKIUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
-      "1d": "Buy",
+      "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "GMTUSDT": {
-      "1m": "Sell",
+      "1m": "Neutral",
       "5m": "Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Neutral",
-      "1w": "Strong Sell",
+      "1w": "Sell",
       "1M": "Sell"
     },
     "FOGOUSDT": {
-      "1m": "Neutral",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1690,27 +1690,27 @@
       "1M": "Strong Sell"
     },
     "UMAUSDT": {
-      "1m": "Strong Sell",
-      "5m": "Sell",
-      "15m": "Neutral",
-      "30m": "Buy",
-      "1h": "Strong Buy",
-      "1d": "Neutral",
-      "1w": "Neutral",
-      "1M": "Sell"
-    },
-    "NEOUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
+      "1m": "Neutral",
+      "5m": "Buy",
       "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
+    "NEOUSDT": {
+      "1m": "Strong Sell",
+      "5m": "Sell",
+      "15m": "Buy",
+      "30m": "Buy",
+      "1h": "Buy",
+      "1d": "Buy",
+      "1w": "Neutral",
+      "1M": "Sell"
+    },
     "SAGAUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
@@ -1720,8 +1720,8 @@
       "1M": "Neutral"
     },
     "NXPCUSDT": {
-      "1m": "Neutral",
-      "5m": "Strong Buy",
+      "1m": "Sell",
+      "5m": "Neutral",
       "15m": "Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1731,17 +1731,17 @@
     },
     "XAIUSDT": {
       "1m": "Neutral",
-      "5m": "Neutral",
+      "5m": "Strong Buy",
       "15m": "Buy",
-      "30m": "Strong Buy",
-      "1h": "Strong Buy",
+      "30m": "Buy",
+      "1h": "Buy",
       "1d": "Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "SOPHUSDT": {
       "1m": "Neutral",
-      "5m": "Neutral",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
@@ -1751,8 +1751,8 @@
     },
     "MEMEUSDT": {
       "1m": "Neutral",
-      "5m": "Buy",
-      "15m": "Buy",
+      "5m": "Strong Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Buy",
@@ -1760,29 +1760,29 @@
       "1M": "Sell"
     },
     "RSRUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "1m": "Strong Sell",
+      "5m": "Sell",
+      "15m": "Neutral",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Sell"
     },
     "TNSRUSDT": {
-      "1m": "Strong Buy",
+      "1m": "Neutral",
       "5m": "Strong Buy",
-      "15m": "Strong Buy",
-      "30m": "Strong Buy",
+      "15m": "Buy",
+      "30m": "Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
       "1w": "Neutral",
       "1M": "Neutral"
     },
     "NOTUSDT": {
-      "1m": "Buy",
+      "1m": "Neutral",
       "5m": "Buy",
-      "15m": "Buy",
+      "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
       "1d": "Strong Buy",
@@ -1790,8 +1790,8 @@
       "1M": "Neutral"
     },
     "BOMEUSDT": {
-      "1m": "Strong Buy",
-      "5m": "Buy",
+      "1m": "Buy",
+      "5m": "Strong Buy",
       "15m": "Strong Buy",
       "30m": "Strong Buy",
       "1h": "Strong Buy",
